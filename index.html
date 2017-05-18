@@ -25,15 +25,15 @@
 
     <!-- Temporary navbar container fix -->
     <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
+        .navbar-toggler {
+            z-index: 1;
         }
-    }
+
+        @media (max-width: 576px) {
+            nav>.container {
+                width: 100%;
+            }
+        }
     </style>
 
 </head>
@@ -59,7 +59,7 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Testimonials</a>
+                        <!--<a class="nav-link" href="#team">Testimonials</a>-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -81,87 +81,114 @@
         </div>
     </header>
 
-     <!-- About -->
+    <!-- About -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Web Developer & Programmer living in Chicago.</h3>
+                    <!--<h3 class="section-subheading text-muted">Web Developer & Programmer living in Chicago.</h3>-->
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="img/profile.jpg" alt="">
+                                <!--<h4>Kay Garland</h4>-->
+                                <p class="text-muted">Also known as PainTrainKim</p>
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item">
+                                        <a href="github.com/Arakim44"><i class="fa fa-github"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/in/ara-kim-b9bb8998/"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <p class="text-muted">I am a Junior web-developer & Front-End Developer based in Chicago who’s recently graduated from Northwestern Coding Bootcamp. I am focused on building interactive, attractive and interesting website and willing to help you
+                                give your projects the look they deserve. I work hard and learn fast by taking advantage of all the resources the internet offers, and believe in keeping up with latest technology and tools in order to grow as a better
+                                developer. I am looking forward to join in a team where they believe in fun and interactive apps& websites that are user friendly, and willing to develop and build something amazing together. Please look into my resume
+                                to see more detail on my skills. Link here:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                          <!-- <h3 class="section-subheading text-muted">Long Journey to become a web-developer</h3> -->
+                            <li><br><br><br>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                </div>
+                                <br><br>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009-2014</h4>
+                                        <h4 class="subheading">My Undergard Education </h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">SUNY Geneseo Bachlores degree majored in Biochem and Mathematics. realted course taken: Java and R </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Oct-Dec 2015</h4>
+                                        <h4 class="subheading">EMT-B certification</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Malcom X CCC: EMT-B, CPR certification, NREMT, IDPH licensing </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2016</h4>
+                                        <h4 class="subheading">ATI as EMT-B </h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">worked here did not like it so I wanted to be in school</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Sep 2016-April 2017</h4>
+                                        <h4 class="subheading">Northwestern Coding Bootcamp</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h4>Will Be
+                                    <br>In Your
+                                    <br>Team!</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-             <!--=============================================================================================================-->
-            <!--<div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>-->
-                 <!--=============================================================================================================-->
-            </div>
-        </div>
     </section>
 
 
@@ -212,7 +239,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Small projects from Bootcamp and my free time.</h3>
                 </div>
             </div>
             <div class="row">
@@ -226,8 +253,8 @@
                         <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Threads</h4>
-                        <p class="text-muted">Illustration</p>
+                        <h4>Hangman Game</h4>
+                        <p class="text-muted">JavaScript Game</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -240,8 +267,8 @@
                         <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Explore</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Trivial Game</h4>
+                        <p class="text-muted">JavaScript Game</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -254,8 +281,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Finish</h4>
-                        <p class="text-muted">Identity</p>
+                        <h4>Rock Paper Scissors</h4>
+                        <p class="text-muted">JavaScript Game</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -268,8 +295,8 @@
                         <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Lines</h4>
-                        <p class="text-muted">Branding</p>
+                        <h4>Mudy Waters</h4>
+                        <p class="text-muted">Local Coffee Shop Website Design</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -282,8 +309,8 @@
                         <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Southwest</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Streaming Assistent</h4>
+                        <p class="text-muted">I don't know</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -296,17 +323,17 @@
                         <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>Window</h4>
-                        <p class="text-muted">Photography</p>
+                        <h4>Something else too:</h4>
+                        <p class="text-muted">I could just work front-end stuff.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-   
+
     <!-- Team -->
-    <section class="bg-faded" id="team">
+    <!--<section class="bg-faded" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -376,10 +403,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- Clients -->
-    <section>
+    <!--<section>
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -404,15 +431,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- Contact -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Contact Ara</h2>
+                    <h3 class="section-subheading " style="color:white">If you have any questions or want to hire me, please shoot me an email!</h3>
                 </div>
             </div>
             <div class="row">
@@ -456,7 +483,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2017</span>
+                    <span class="copyright">Copyright &copy; Ara's Website 2017</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -474,10 +501,10 @@
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
                         <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
+                            <!--<a href="#">Privacy Policy</a>-->
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
+                            <!--<a href="#">Terms of Use</a>-->
                         </li>
                     </ul>
                 </div>
@@ -505,7 +532,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
@@ -538,7 +566,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Explore</li>
@@ -571,7 +600,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Finish</li>
@@ -604,7 +634,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Lines</li>
@@ -637,7 +668,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Southwest</li>
@@ -670,7 +702,8 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Window</li>
